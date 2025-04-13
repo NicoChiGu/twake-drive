@@ -1,0 +1,3 @@
+ROM koyeb/docker-compose
+
+COPY . /app
