@@ -28,9 +28,9 @@ services:
     image: twakedrive/tdrive-frontend
     environment:
       - DEV=production
-      - NODE_HOST=http://tdrive_node:4000
+      - NODE_HOST=https://satisfied-sal-teratateam-869b219f.koyeb.app
       # Do not use SSL. Just connect to port 80:
-      # - SSL_CERTS=off
+      - SSL_CERTS=off
       #
       # Or generate a self signed certificate, for host `$SSL_SUBJ_CN` (default: `localhost`)
       # unless one exists in `/etc/nginx/ssl/selfsigned.crt`
